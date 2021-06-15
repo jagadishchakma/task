@@ -22,6 +22,7 @@ const Task1 = () => {
             const newData = [...data];
             newData.push(temp);
             setData(newData);
+            setTemp({});
             e.target.reset();
         }
       }
